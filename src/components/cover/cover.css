@@ -35,6 +35,10 @@
   margin-top: 50px;
 }
 
+.cover .cover-links .cover-link {
+  text-decoration: none;
+}
+
 .cover .cover-next .cover-link-icon {
   height: 50px;
 }

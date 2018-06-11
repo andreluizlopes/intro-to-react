@@ -12,7 +12,7 @@ class WhatIsIt extends Component {
   }
 
   componentDidMount () {
-    const timerid = setTimeout(() => {
+    setTimeout(() => {
       this.setState({
         active: 'is-active'
       })
