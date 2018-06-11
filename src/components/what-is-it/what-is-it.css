@@ -1,0 +1,76 @@
+.what-is-it {
+  width: 100%;
+  overflow: hidden;
+}
+
+.what-is-it-content,
+.what-is-it-bg {
+  width: 50%;
+  float: left;
+}
+
+.what-is-it-title {
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+}
+
+.what-is-it-content {
+  text-align: left;
+  padding-left: 5%;
+  padding-top: 14%;
+  box-sizing: border-box;
+  background: #59c8e7;
+  height: 100vh;
+}
+
+.what-is-it-bg {
+  transition: transform .2s ease-in-out;
+  transform: translateX(100%);
+}
+
+.what-is-it-bg.is-active {
+  transform: translateX(0);
+}
+
+.what-is-it-bg {
+  height: 100vh;
+  background: url('../../assets/images/dexter.gif') no-repeat center center;
+  background-size: cover;
+}
+
+.what-is-it-bg-content {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  padding: 0px 0px 0px 40px;
+}
+
+.what-is-it-bg h2 {
+  font-size: 48px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.what-is-it-bg .btn-who-uses {
+  -webkit-appearance: none;
+  border: none;
+  background: #fff;
+  padding: 6px 30px;
+  border-radius: 5px;
+  color: #59c8e7;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.what-is-it-list {
+  margin: 40px 0;
+}
+
+.what-is-it-list li {
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 20px;
+}

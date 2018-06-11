@@ -1,0 +1,86 @@
+.who-uses {
+  overflow: hidden;
+}
+
+.who-uses .who-uses-head {
+  width: 100%;
+  height: 30vh;
+  background: url('../../assets/images/background-cover.jpg') no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 10vh;
+  box-sizing: border-box;
+  color: #59c8e7;
+}
+
+.who-uses .who-uses-head h2 {
+  color: #59c8e7;
+  font-weight: 500;
+}
+
+.who-uses-content {
+  text-align: center;
+}
+
+.who-uses .btn-advantages {
+  -webkit-appearance: none;
+  border: none;
+  color: #fff;
+  padding: 6px 30px;
+  border-radius: 5px;
+  background: #59c8e7;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.who-uses .who-uses-head .who-uses-info {
+  margin: 10px 0;
+  color: #59c8e7;
+}
+
+.who-uses .who-uses-box {
+  width: 150px;
+  height: 150px;
+}
+
+.who-uses .who-uses-box {
+  transition: transform .4s, opacity .3s ease-in-out;
+  opacity: 0;
+  transform: translateY(110px);
+}
+
+.who-uses.is-active .who-uses-box {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.who-uses .who-uses-box.airbnb {
+  background: url(../../assets/images/icons/airbnb.png) no-repeat;
+}
+
+.who-uses .who-uses-box.yahoo {
+  background: url(../../assets/images/icons/yahoo.png) no-repeat;
+}
+
+.who-uses .who-uses-box.facebook {
+  background: url(../../assets/images/icons/facebook.png) no-repeat;
+}
+
+.who-uses .who-uses-box.instagram {
+  background: url(../../assets/images/icons/instagram.png) no-repeat;
+}
+
+.who-uses .who-uses-box.netflix {
+  background: url(../../assets/images/icons/netflix.png) no-repeat;
+}
+
+.who-uses .who-uses-box.newyorktime {
+  background: url(../../assets/images/icons/newyorktime.png) no-repeat;
+}
+
+.who-uses .who-uses-box.codecademy {
+  background: url(../../assets/images/icons/codecademy.png) no-repeat;
+}
+
+.who-uses .who-uses-box.dropbox {
+  background: url(../../assets/images/icons/dropbox.png) no-repeat;
+}
