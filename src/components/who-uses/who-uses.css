@@ -19,6 +19,7 @@
 
 .who-uses-content {
   text-align: center;
+  padding-top: 100px;
 }
 
 .who-uses .btn-advantages {
@@ -38,8 +39,7 @@
 }
 
 .who-uses .who-uses-box {
-  width: 150px;
-  height: 150px;
+  margin-bottom: 30px;
 }
 
 .who-uses .who-uses-box {
@@ -53,34 +53,6 @@
   transform: translateY(0px);
 }
 
-.who-uses .who-uses-box.airbnb {
-  background: url(../../assets/images/icons/airbnb.png) no-repeat;
-}
-
-.who-uses .who-uses-box.yahoo {
-  background: url(../../assets/images/icons/yahoo.png) no-repeat;
-}
-
-.who-uses .who-uses-box.facebook {
-  background: url(../../assets/images/icons/facebook.png) no-repeat;
-}
-
-.who-uses .who-uses-box.instagram {
-  background: url(../../assets/images/icons/instagram.png) no-repeat;
-}
-
-.who-uses .who-uses-box.netflix {
-  background: url(../../assets/images/icons/netflix.png) no-repeat;
-}
-
-.who-uses .who-uses-box.newyorktime {
-  background: url(../../assets/images/icons/newyorktime.png) no-repeat;
-}
-
-.who-uses .who-uses-box.codecademy {
-  background: url(../../assets/images/icons/codecademy.png) no-repeat;
-}
-
-.who-uses .who-uses-box.dropbox {
-  background: url(../../assets/images/icons/dropbox.png) no-repeat;
+.who-uses .who-uses-box .who-uses-box-image {
+  width: 100%;
 }

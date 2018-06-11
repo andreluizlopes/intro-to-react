@@ -22,6 +22,10 @@ class Form extends Component {
     })
   }
 
+  componentDidMount () {
+    console.log('montou??')
+  }
+
   handleChangeEmail(event) {
     console.log(event.target.value)
     this.setState({

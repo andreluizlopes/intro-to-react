@@ -1,5 +1,11 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
+import facebookLogo from '../../assets/images/icons/facebook.png'
+import walmartLogo from '../../assets/images/icons/walmart.png'
+import deezerLogo from '../../assets/images/icons/deezer.png'
+import spotifyLogo from '../../assets/images/icons/spotify.png'
+import atlassianLogo from '../../assets/images/icons/atlassian.png'
+import dropboxLogo from '../../assets/images/icons/dropbox.png'
 import './who-uses.css'
 
 class WhoUses extends Component {
@@ -32,28 +38,37 @@ class WhoUses extends Component {
         <div className="who-uses-content">
           <div className="container">
             <div className="row">
-              <div className="col-3">
-                <div className="who-uses-box airbnb"></div>
+              <div className="col-4">
+                <div className="who-uses-box">
+                  <img src={facebookLogo} alt="facebookLogo" className="who-uses-box-image"/>
+                </div>
               </div>
-              <div className="col-3">
-                <div className="who-uses-box yahoo"></div>
+              <div className="col-4">
+                <div className="who-uses-box">
+                  <img src={walmartLogo} alt="walmartLogo" className="who-uses-box-image"/>
+                </div>
               </div>
-              <div className="col-3">
-                <div className="who-uses-box facebook"></div>
+              <div className="col-4">
+                <div className="who-uses-box">
+                  <img src={deezerLogo} alt="deezerLogo" className="who-uses-box-image"/>
+                </div>
               </div>
-              <div className="col-3">
-                <div className="who-uses-box instagram"></div>
+            </div>
+            <div className="row">
+              <div className="col-4">
+                <div className="who-uses-box">
+                  <img src={spotifyLogo} alt="spotifyLogo" className="who-uses-box-image"/>
+                </div>
               </div>
-              <div className="col-3">
-                <div className="who-uses-box netflix"></div>
-              </div>     <div className="col-3">
-                <div className="who-uses-box newyorktime"></div>
+              <div className="col-4">
+                <div className="who-uses-box">
+                  <img src={atlassianLogo} alt="atlassianLogo" className="who-uses-box-image"/>
+                </div>
               </div>
-              <div className="col-3">
-                <div className="who-uses-box codecademy"></div>
-              </div>
-              <div className="col-3">
-                <div className="who-uses-box dropbox"></div>
+              <div className="col-4">
+                <div className="who-uses-box">
+                  <img src={dropboxLogo} alt="dropboxLogo" className="who-uses-box-image"/>
+                </div>
               </div>
             </div>
           </div>
