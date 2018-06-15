@@ -7,6 +7,7 @@ import WhoUses from './components/who-uses/who-uses'
 import Advantages from './components/advantages'
 import GetToWork from './components/get-to-work/get-to-work'
 import Form from './components/form/form'
+import Menu from './components/menu/example'
 import './assets/css/main.css'
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
           <Route exact path="/advantages" component={Advantages} />
           <Route exact path="/get-to-work" component={GetToWork} />
           <Route exact path="/form" component={Form} />
+          <Route exact path="/menu" component={Menu} />
         </main>
 
       </div>
