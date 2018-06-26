@@ -1,0 +1,15 @@
+.validationContainer {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bigText {
+    font-size: 100px;
+    position: absolute;
+    top: 0;
+    opacity: 0.3;
+}

@@ -8,6 +8,7 @@ import Advantages from './components/advantages'
 import GetToWork from './components/get-to-work/get-to-work'
 import Form from './components/form/form'
 import Menu from './components/menu/example'
+import WhereAmI from './components/validation/WhereAmI'
 import './assets/css/main.css'
 
 class App extends Component {
@@ -24,6 +25,7 @@ class App extends Component {
           <Route exact path="/get-to-work" component={GetToWork} />
           <Route exact path="/form" component={Form} />
           <Route exact path="/menu" component={Menu} />
+          <Route exact path="/validation" component={WhereAmI} />
         </main>
 
       </div>
