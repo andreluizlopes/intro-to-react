@@ -35,3 +35,9 @@ class Menu extends Component {
 }
 
 export default Menu;
+
+
+// //Exemplo de abrir menu com jQuery
+// jQuery('.menu .menuBt').on('click', function() {
+//   jQuery('.menu .menuContent').toggleClass('menuContent--active');
+// });

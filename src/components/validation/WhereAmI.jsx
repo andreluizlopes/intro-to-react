@@ -32,9 +32,9 @@ class WhereAmI extends Component {
         <p className="bigText">{this.state.inputValue}</p>
         <p>Onde eu estou?</p>
         <input type="text" onChange={this.changeInput} value={this.state.inputValue} />
-        <p>Resposta: {this.state.inputValue}</p>
+        <p className="answer">Resposta: {this.state.inputValue}</p>
         {this.state.inputValue === 'Escale' && (
-          <p>Sim!! Você está na <strong>Escale</strong></p>
+          <p className="result">Sim!! Você está na <strong>Escale</strong></p>
         )}
       </div>
     );
@@ -42,3 +42,14 @@ class WhereAmI extends Component {
 }
 
 export default WhereAmI;
+
+// jQuery('input').on('change', function(e) {
+//   var value = e.value;
+//   jQuery('.bigText').html(e);
+//   jQuery('.answer').html(e);
+//   if (value === 'Escale') {
+//     jQuery('.result').show();
+//   } else {
+//     jQuery('.result').hide();
+//   }
+// });
