@@ -15,7 +15,7 @@ export default () => (
       <p className="about">Uma biblioteca JavaScript para construir interfaces</p>
       
       <div className="row cover-links">
-        <div className="col-3">
+        <div className="col-4">
           <div className="cover-next">
             <Link className="cover-link" to="/what-is-it">
               <img src={iconQuestion} alt="iconQuestion" className="cover-link-icon"/>
@@ -24,27 +24,18 @@ export default () => (
             </Link>
           </div>
         </div>
-        <div className="col-3">
+        <div className="col-4">
           <div className="cover-next">
-            <Link className="cover-link" to="/what-is-it">
-              <img src={iconUser} alt="iconUser   " className="cover-link-icon"/>
+            <Link className="cover-link" to="/who-uses">
+              <img src={iconUser} alt="iconUser" className="cover-link-icon"/>
               <p className="cover-link-title">QUEM ESTÁ USANDO</p>
               <p className="cover-link-text">Algumas empresas que utilizam ReactJs</p>
             </Link>
           </div>
         </div>
-        <div className="col-3">
+        <div className="col-4">
           <div className="cover-next">
-            <Link className="cover-link" to="/what-is-it">
-              <img src={iconAdvantage} alt="iconAdvantage" className="cover-link-icon"/>
-              <p className="cover-link-title">VANTAGENS</p>
-              <p className="cover-link-text">Por que usar?</p>
-            </Link>
-          </div>
-        </div>
-        <div className="col-3">
-          <div className="cover-next">
-            <Link className="cover-link" to="/what-is-it">
+            <Link className="cover-link" to="/get-to-work">
               <img src={iconGetToWork} alt="iconGetToWork" className="cover-link-icon"/>
               <p className="cover-link-title">MÃOS À OBRA</p>
               <p className="cover-link-text">Vamos ver na prática</p>

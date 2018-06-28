@@ -1,8 +1,7 @@
 .get-to-work {
-  background: blue;
   width: 100vw;
   height: 100vh;
-  background: url('../../assets/images/work.gif') no-repeat center center;
+  background: url('../../assets/images/work.gif') no-repeat bottom center;
   background-size: cover;
   text-align: center;
 }
@@ -16,12 +15,12 @@
 
 
 .get-to-work .get-to-work-content .get-to-work-link {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .get-to-work .get-to-work-content h2 {
   color: #fff;
   text-transform: uppercase;
   font-size: 60px;
-  font-weight: 500;
+  font-weight: 600;
 }

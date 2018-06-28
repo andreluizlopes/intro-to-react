@@ -6,7 +6,7 @@ export default () => (
   <div className="get-to-work">
     <div className="get-to-work-content">
 
-      <Link to="/form" className="get-to-work-link">
+      <Link to="/menu" className="get-to-work-link">
         <h2>MÃOS
           <br/>À OBRA
         </h2>
