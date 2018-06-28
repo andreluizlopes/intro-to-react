@@ -1,0 +1,14 @@
+.end {
+  height: 100vh;
+  background: url('../../assets/images/thx.gif') no-repeat center center;
+  background-size: cover;
+}
+
+.end h2 {
+  color: #fff;
+  font-size: 62px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 80px;
+  right: 100px;
+}

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './example.css';
 
 const Item = ({ title }) => (
   <p>{title}</p>
@@ -12,6 +13,7 @@ class Example extends Component {
       actualValue: '',
       items: [
         'Olá',
+        'Joao',
       ],
     };
   }
@@ -35,11 +37,23 @@ class Example extends Component {
   render() {
     return (
       <div className="example">
-        {this.state.items.map(item => (
-          <Item title={item} />
-        ))}
-        <div className="template">
-          <input type="text" onChange={this.changeValue} /><button onClick={this.addItem}>Add</button>
+        <div className="example-bg">
+          <div className="row">
+            <div className="col-12">
+              <div className="items">
+                {this.state.items.map(item => (
+                  <Item title={item} />
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="example-form">
+          <div className="row">
+            <div className="col-12">
+              <input type="text" onChange={this.changeValue} /><button onClick={this.addItem}>Add</button>
+            </div>
+          </div>
         </div>
       </div>
     );

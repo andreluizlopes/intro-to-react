@@ -1,0 +1,15 @@
+.example-bg {
+  width: 50%;
+  height: 100vh;
+  float: left;
+  background: url('../../assets/images/background-cover.jpg') no-repeat center center;
+  background-size: cover;
+}
+.example-bg .items {
+  background: #fff;
+}
+
+.example-form {
+  width: 50%;
+  float: left;
+}

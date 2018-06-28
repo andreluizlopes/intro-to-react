@@ -1,3 +1,5 @@
 https://reactjs.org/
 https://brainhub.eu/blog/10-famous-apps-using-reactjs-nowadays/
 http://www.npmtrends.com/angular-vs-react-vs-vue
+https://www.udemy.com/react-redux-pt/
+https://reactjs.org/docs/create-a-new-react-app.html

@@ -6,10 +6,9 @@ class Form extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      'name': '',
-      'email': '',
-      'showResult': ''
-
+      name: '',
+      email: '',
+      showResult: ''
     }
     this.handleChangeName = this.handleChangeName.bind(this);
     this.handleChangeEmail = this.handleChangeEmail.bind(this);
@@ -19,24 +18,22 @@ class Form extends Component {
   handleChangeName(event) {
     console.log(event.target.value)
     this.setState({
-      'name': event.target.value
+      name: event.target.value
     })
-
   }
 
   handleChangeEmail(event) {
     console.log(event.target.value)
     this.setState({
-      'email': event.target.value
+      email: event.target.value
     })
   }
 
   handleSubmit (event) {
     event.preventDefault()
     this.setState({
-      'showResult': 'is-active'
+      showResult: 'is-active'
     })
-
   }
 
   renderForm () {

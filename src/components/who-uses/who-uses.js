@@ -73,9 +73,9 @@ class WhoUses extends Component {
             </div>
           </div>
 
-          <Link to="/advantages">
+          <Link to="/get-to-work">
             <button className="btn-advantages">
-              Vantagens
+              Mãos à obra
             </button>
           </Link>
 

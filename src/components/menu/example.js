@@ -6,7 +6,7 @@ import './example.css'
 const Example = () => (
   <div className="example">
     <Menu />
-    <Trem showTrain={false} />
+    <Trem showTrain />
   </div>
 )
 
